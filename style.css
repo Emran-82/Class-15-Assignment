@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+/* Default css */
+
+.fix-width{
+    width: 1024px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* header Start */
+
+.header{
+    background-color: #20c2a3;
+    color: white;
+}
+.left-header{
+    width: 30%;
+    float: left;
+}
+
+.left-header a{
+    text-decoration: none;
+    color: white;
+}
+.left-header h1{
+    padding: 15px 0px;
+    margin-left: 60px;
+    
+}
+
+
+.right-header{
+    width: 70%;
+    float: right;
+}
+.right-header ul{
+    text-align: right;
+    margin-right: 60px;
+}
+.right-header ul li{
+    display: inline-block;
+    
+}
+.right-header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    line-height: 70px;
+    text-transform: uppercase;
+  
+}
+
+
+/* banner section */
+
+.banner{
+    background: url(https://i.postimg.cc/pdtCmYFb/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 61px;
+    margin-bottom: 10px;
+}
+.banner p{
+    color:#c0ede4;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+ .banner h3 {
+        color: white;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5px 15px;
+        border: 2px solid #fff;
+        display: inline-block;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+}
+
+
+/* our service */
+
+.our-service{
+    padding: 100px 0;
+    
+    
+}
+
+.our-service h2{
+    color: #545454;
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+}
+
+.our-service p{
+    color: #787878;
+    max-width: 822px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* service box */
+
+.service-box{
+    padding: 35px 0;
+    width: 1270px;
+    margin: auto;
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.service-item{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.service-item span{
+    font-size: 35px;
+    color: #09be9b;
+}
+
+.service-item h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #616161;
+    font-weight: 700;
+}
+.service-item p{
+    width: 258px;
+    margin: auto;
+    color: #787878;
+    line-height: 25px;
+}
+.border-bottom{
+  border-bottom: 3px solid #00b892;
+}
+
+/* About us */
+
+.about-us{
+    padding: 80px;
+    
+}
+
+.about-us h3{
+    color: #525252;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.about-us p{
+    color: #6f6f6f;
+}
+
+/* About Us Content  */
+
+.about-content{
+    padding: 0 40px;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.about-left{
+    width: 40%;
+    float: left;
+}
+.about-left img{
+   
+}
+
+.about-right{
+    width: 55%;
+    float: right;
+}
+.about-right h3{
+    margin-bottom: 10px;
+    color: #656565;
+}
+.about-right p{
+    margin-bottom: 15px;
+    color: #808080;
+}
+.margin{
+    margin-bottom: 30px;
+}
+/* Contact us */
+
+.contact-us{
+   
+    padding: 80px 0;
+}
+.contact-us h2{
+    color: #656565;
+    margin: 25px 0;
+    font-size: 30px;
+}
+.contact-us p{
+    color: #656565;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* contact box */
+
+.contact-box{
+    padding: 80px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.contact-item{
+    width: 15%;
+    margin-left: 200px;
+    float: left;
+    text-align: center;
+    color: #09be9b;
+    
+}
+.contact-item span {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.contact-item h4{
+    font-weight: 600;
+}
+
+/* Footer menu */
+
+.footer-menu{
+    background-color: #09be9b;
+    padding: 10px 0;
+    margin-top: 80px;
+}
+.footer-menu ul{
+    text-align: center;
+}
+.footer-menu ul li{
+    
+    display: inline-block;
+}
+.footer-menu ul li a{
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: #212121;
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer p{
+    color: #585858;
+    font-size: 14px;
+}
